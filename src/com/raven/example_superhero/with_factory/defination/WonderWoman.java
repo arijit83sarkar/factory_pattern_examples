@@ -1,4 +1,4 @@
-package com.raven.example_superhero.with_factory;
+package com.raven.example_superhero.with_factory.defination;
 
 // Our mighty champions! It is our "Concrete Products."
 public class WonderWoman implements ISuperhero {
