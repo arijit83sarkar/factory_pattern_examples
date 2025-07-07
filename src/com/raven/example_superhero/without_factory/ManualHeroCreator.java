@@ -12,7 +12,7 @@ public class ManualHeroCreator {
             System.out.println("Requesting an Amazonian warrior princess!");
             return new WonderWoman();
         } else {
-            throw new IllegalArgumentException("Unknown hero type! Are you sure they exist outside fan-fiction?");
+            throw new IllegalArgumentException("Unknown hero type!");
         }
     }
 }
