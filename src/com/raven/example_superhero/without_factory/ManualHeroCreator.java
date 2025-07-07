@@ -8,7 +8,7 @@ public class ManualHeroCreator {
         } else if (type.equals(EHeroType.BATMAN)) {
             System.out.println("Calling for a dark knight!");
             return new Batman();
-        } else if (type.equals(EHeroType.BATMAN)) {
+        } else if (type.equals(EHeroType.WONDERWOMAN)) {
             System.out.println("Requesting an Amazonian warrior princess!");
             return new WonderWoman();
         } else {
